@@ -1,0 +1,116 @@
+(footprint "CAPPRD1000W190D3550H5200"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "35x50mm")
+	(tags "Capacitor Polarised")
+	(property "Reference" "C**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "28103c89-ea69-45bc-ac4b-686b70c3f21d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CAPPRD1000W190D3550H5200"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "652b3d69-ce9c-4707-8d4b-890adcc238e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81f2eb8a-c1fc-4aa8-be30-20adad9b82f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cba88c5-3355-4c52-b0da-daa297cb046e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 5 0)
+		(end 5 17.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9d6f2650-d414-4fdd-8ae4-9f76e0d0037c")
+	)
+	(fp_circle
+		(center 5 0)
+		(end 5 17.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0947a5ed-0e0b-4d90-9eaa-0ab4915fcfe2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "90d453df-fa60-4ec6-a631-6ef9cf9fbb45")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 3.15 3.15)
+		(drill 2.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ece0ee43-4332-4f59-905b-e914f6309fdc")
+	)
+	(pad "2" thru_hole circle
+		(at 10 0)
+		(size 3.15 3.15)
+		(drill 2.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d5aee3f0-1907-4932-8a72-3ce83fa19bdd")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\michi\\Documents\\KiCad\\LibraryOrdner\\SamacSys_Parts.3dshapes\\LGU2W471MELC.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
